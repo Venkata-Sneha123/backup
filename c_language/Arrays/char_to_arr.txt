@@ -1,0 +1,27 @@
+
+char (*arr)[5] is a pointer to an array of 5 chars... I think 
+
+char *(arr[5]) is just an array of 5 pointers to char
+
+
+char *(arr[5]) equals to char *arr[5] and it means you have array of pointers 
+that each of them points to a character 
+
+so arr[0] can points to a character and arr[1] can points to a character and so on. 
+
+For example you can write your code like this:
+
+char *(arr[5]);// or char *arr[5]
+char a = 'a',b='b',c='c';
+arr[0] = &a;
+arr[1] = &b;
+arr[2] = &c;    
+printf("a=%c b=%c c=%c \n",*arr[0],*arr[1],*arr[2]);
+
+But (*arr)[5] means you have an array of 5 characters and you want to point it.
+For example you can write your code like this:
+
+char (*arr)[5];
+char str[5] = "Hell";
+arr = &str;
+printf("%s\n",*arr);
