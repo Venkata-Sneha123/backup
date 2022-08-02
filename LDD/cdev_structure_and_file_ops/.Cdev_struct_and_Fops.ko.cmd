@@ -1,0 +1,1 @@
+cmd_/home/km/LDD/cdev_structure_and_file_ops/Cdev_struct_and_Fops.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/km/LDD/cdev_structure_and_file_ops/Cdev_struct_and_Fops.ko /home/km/LDD/cdev_structure_and_file_ops/Cdev_struct_and_Fops.o /home/km/LDD/cdev_structure_and_file_ops/Cdev_struct_and_Fops.mod.o;  true

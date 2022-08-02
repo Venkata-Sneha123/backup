@@ -1,0 +1,1 @@
+cmd_/home/km/LDD/threads/thread.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/km/LDD/threads/thread.ko /home/km/LDD/threads/thread.o /home/km/LDD/threads/thread.mod.o;  true

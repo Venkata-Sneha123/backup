@@ -1,0 +1,1 @@
+cmd_/home/km/LDD/mutex/mutex.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/km/LDD/mutex/mutex.ko /home/km/LDD/mutex/mutex.o /home/km/LDD/mutex/mutex.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/km/LDD/chr_dev_udev/chr_drv_udev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/km/LDD/chr_dev_udev/chr_drv_udev.ko /home/km/LDD/chr_dev_udev/chr_drv_udev.o /home/km/LDD/chr_dev_udev/chr_drv_udev.mod.o;  true

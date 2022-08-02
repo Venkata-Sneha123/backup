@@ -1,0 +1,1 @@
+cmd_/home/km/LDD/IOCTL/ioctl_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/km/LDD/IOCTL/ioctl_driver.ko /home/km/LDD/IOCTL/ioctl_driver.o /home/km/LDD/IOCTL/ioctl_driver.mod.o;  true

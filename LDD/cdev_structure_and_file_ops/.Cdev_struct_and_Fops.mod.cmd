@@ -1,0 +1,1 @@
+cmd_/home/km/LDD/cdev_structure_and_file_ops/Cdev_struct_and_Fops.mod := { echo  /home/km/LDD/cdev_structure_and_file_ops/Cdev_struct_and_Fops.o;  echo; } > /home/km/LDD/cdev_structure_and_file_ops/Cdev_struct_and_Fops.mod
